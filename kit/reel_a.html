@@ -1,0 +1,73 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{font-family:"Inter",sans-serif;color:#0B1B17;background:#F4F7F6}
+.d{font-family:"Inter Display","Inter",sans-serif;font-weight:800;letter-spacing:-0.03em}
+.layer{position:absolute;inset:0}
+#bg{background:linear-gradient(135deg,#087F57 0%,#12B886 45%,#FF8A6B 100%)}
+#hook{display:flex;flex-direction:column;justify-content:center;padding:0 96px;color:#fff}
+#hook h1{font-size:132px;line-height:1.0}
+#hook p{font-size:46px;font-weight:600;margin-top:40px;opacity:.95}
+#chart{background:#F4F7F6;padding:130px 80px 0}
+#chart h2{font-size:84px;line-height:1.02}
+#chart .sub{font-size:36px;color:#5A6B66;font-weight:500;margin-top:20px}
+.row{margin-top:84px}
+.lab{display:flex;justify-content:space-between;align-items:baseline;font-size:46px;font-weight:700}
+.lab .n{font-family:"Inter Display";font-weight:800;font-size:56px;color:#087F57}
+.lab .ru{display:block;font-size:28px;color:#5A6B66;font-weight:500;margin-top:4px}
+.track{height:40px;border-radius:999px;background:#E2F6EE;margin-top:16px;overflow:hidden}
+.bar{height:100%;border-radius:999px;background:#087F57;width:0}
+.row:first-of-type .bar{background:linear-gradient(90deg,#087F57,#12B886)}
+.src{margin-top:70px;font-size:28px;color:#5A6B66;font-weight:500}
+#cta{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:0 96px;color:#fff}
+#cta .big{font-size:220px;line-height:.9}
+#cta .t{font-size:56px;font-weight:700;margin-top:24px}
+#cta .pill{margin-top:72px;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.4);border-radius:32px;padding:30px 44px;font-size:48px;font-weight:700}
+.logo{position:absolute;left:80px;top:96px;width:420px}
+</style></head><body>
+<div class="layer" id="bg"></div>
+<div class="layer" id="hook">
+  <h1 class="d">Hozir eng<br>koʻp ish<br>qayerda?</h1>
+  <p>Где сейчас больше всего работы?</p>
+</div>
+<div class="layer" id="chart">
+  <img class="logo" src="logo_dark.svg" style="position:static;width:330px;margin-bottom:70px">
+  <h2 class="d">Top-5 soha</h2>
+  <div class="sub">Eng koʻp vakansiya · Больше всего вакансий</div>
+  <div id="rows"></div>
+  <div class="src">kasbbor.uz maʼlumotlari, 3-noyabr 2026 · Данные kasbbor.uz</div>
+</div>
+<div class="layer" id="cta">
+  <div class="d big" id="cnt">646</div>
+  <div class="t">ta vakansiya — butun Oʻzbekiston boʻylab</div>
+  <div class="t" style="font-size:40px;font-weight:500;opacity:.9;margin-top:12px">вакансий по всему Узбекистану</div>
+  <div class="pill">kasbbor.uz · Telegram @kasbbor</div>
+</div>
+<img class="logo" id="wlogo" src="logo_white.svg">
+<script>
+const data=[["Sotuv va savdo","Продажи и торговля",147],["Ishlab chiqarish","Производство",110],["Restoran va kafelar","Рестораны и кафе",57],["Call-markaz","Колл-центр",51],["Ofis va maʼmuriyat","Офис и администрация",36]];
+const R=document.getElementById('rows');
+data.forEach(d=>{R.insertAdjacentHTML('beforeend',`<div class="row"><div class="lab"><span>${d[0]}<span class="ru">${d[1]}</span></span><span class="n">0</span></div><div class="track"><div class="bar"></div></div></div>`)});
+const rows=[...document.querySelectorAll('.row')];
+const cl=(x)=>Math.max(0,Math.min(1,x)), ease=x=>1-Math.pow(1-cl(x),3), eio=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const $=id=>document.getElementById(id);
+window.draw=function(t){
+  // hook 0-2.4
+  const hIn=ease(t/0.6), hOut=eio((t-2.1)/0.4);
+  $('hook').style.opacity=hIn*(1-hOut);
+  $('hook').style.transform=`translateY(${(1-hIn)*60 - hOut*80}px)`;
+  // chart 2.3-9.2
+  const cIn=eio((t-2.2)/0.5), cOut=eio((t-9.0)/0.4);
+  $('chart').style.opacity=cIn*(1-cOut);
+  $('chart').style.transform=`translateX(${(1-cIn)*120}px)`;
+  rows.forEach((r,i)=>{const p=ease((t-2.7-i*0.45)/1.2); const v=data[i][2];
+    r.style.opacity=cl((t-2.6-i*0.45)/0.3); r.querySelector('.bar').style.width=(p*v/147*100)+'%';
+    r.querySelector('.n').textContent=Math.round(p*v);});
+  // cta 9.2-
+  const aIn=ease((t-9.3)/0.6);
+  $('cta').style.opacity=aIn; $('cta').style.transform=`translateY(${(1-aIn)*60}px)`;
+  $('cnt').textContent=Math.round(ease((t-9.3)/1.4)*646);
+  $('wlogo').style.opacity=Math.max(1-cIn, aIn) * (t<2.2? hIn:1);
+};
+draw(0);
+</script></body></html>
