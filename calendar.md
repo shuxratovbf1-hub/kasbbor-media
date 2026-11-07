@@ -7,7 +7,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 2026-11-03 | вт | Запуск | KASBBOR endi Instagramda | Карусель 5 | опубликовано (17976932526170729) |
 | 2026-11-06 | пт | Raqamlar | Hozir eng koʻp ish qayerda? (топ-5 сфер kasbbor.uz) | Рилс | опубликовано (18053119238810910) |
-| 2026-11-07 | сб | Mahsulot | Ishni 30 soniyada toping | Рилс | запланировано в чате |
+| 2026-11-07 | сб | Mahsulot | Ishni 30 soniyada toping | Рилс | опубликовано (17895875655433089) |
 | 2026-11-08 | вс | Interaktiv | Qaysi sohada ish qidiryapsiz? | Пост-вопрос | план |
 | 2026-11-09 | пн | Kun vakansiyalari | Toshkentda 5 ta ish | Карусель | план |
 | 2026-11-10 | вт | Maslahat | Rezyumedagi 5 ta xato | Карусель | план |
