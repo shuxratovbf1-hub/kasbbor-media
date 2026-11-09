@@ -9,7 +9,7 @@
 | 2026-11-06 | пт | Raqamlar | Hozir eng koʻp ish qayerda? (топ-5 сфер kasbbor.uz) | Рилс | опубликовано (18053119238810910) |
 | 2026-11-07 | сб | Mahsulot | Ishni 30 soniyada toping | Рилс | опубликовано (17895875655433089) |
 | 2026-11-08 | вс | Interaktiv | Qaysi sohada ish qidiryapsiz? | Пост-вопрос | опубликовано (18021087416945471) |
-| 2026-11-09 | пн | Kun vakansiyalari | Toshkentda 5 ta ish | Карусель | план |
+| 2026-11-09 | пн | Maslahat (замена: вакансии недоступны) | Soxta vakansiyani qanday tanish mumkin? 5 ta belgi | Карусель 7 | опубликовано (17979243219140808) |
 | 2026-11-10 | вт | Maslahat | Rezyumedagi 5 ta xato | Карусель | план |
 | 2026-11-11 | ср | Ish beruvchiga | Vakansiyani bepul 2 daqiqada joylang | Рилс | план |
 | 2026-11-12 | чт | Kun vakansiyalari | Samarqand va Buxoroda ish | Карусель | план |
