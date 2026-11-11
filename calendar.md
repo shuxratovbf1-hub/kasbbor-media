@@ -11,7 +11,7 @@
 | 2026-11-08 | вс | Interaktiv | Qaysi sohada ish qidiryapsiz? | Пост-вопрос | опубликовано (18021087416945471) |
 | 2026-11-09 | пн | Maslahat (замена: вакансии недоступны) | Soxta vakansiyani qanday tanish mumkin? 5 ta belgi | Карусель 7 | опубликовано (17979243219140808) |
 | 2026-11-10 | вт | Maslahat | Rezyumedagi 5 ta xato | Карусель 7 | опубликовано (18401485633202035) |
-| 2026-11-11 | ср | Ish beruvchiga | Vakansiyani bepul 2 daqiqada joylang | Рилс | план |
+| 2026-11-11 | ср | Ish beruvchiga | Vakansiyani bepul 2 daqiqada joylang | Рилс | опубликовано (17960170626268468) |
 | 2026-11-12 | чт | Kun vakansiyalari | Samarqand va Buxoroda ish | Карусель | план |
 | 2026-11-13 | пт | Raqamlar | Qaysi sohada maosh koʻproq (Нацкомстат, янв–сен 2026) | Рилс | план |
 | 2026-11-14 | сб | Mahsulot | Ish beruvchi va ish izlovchi: saytda ikki yoʻl | Рилс | план |
