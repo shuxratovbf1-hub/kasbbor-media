@@ -1,0 +1,93 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+:root{--surface:#F4F7F6;--raised:#FFFFFF;--line:#DDE5E2;--ink:#0B1B17;--muted:#5A6B66;--emerald:#087F57;--emerald-soft:#E2F6EE;--emerald-ink:#05603F;--coral:#FF6A55;--violet:#5B3DF5;--violet-soft:#ECE8FF;--violet-ink:#4327D1;
+--aurora:linear-gradient(135deg,#087F57 0%,#12B886 45%,#FF8A6B 100%);}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#ccc;font-family:"Inter",sans-serif;color:var(--ink)}
+.s{width:1080px;height:1350px;position:relative;overflow:hidden;display:flex;flex-direction:column;padding:96px 88px}
+.d{font-family:"Inter Display","Inter",sans-serif;font-weight:800;letter-spacing:-0.03em}
+.logo{font-family:"Inter Display";font-weight:900;font-size:44px;letter-spacing:-0.02em;display:flex;align-items:center;gap:0}
+.logo .k{color:var(--ink)} .logo .b{color:var(--emerald)} .logo .dot{width:14px;height:14px;border-radius:50%;background:var(--coral);margin-left:8px;align-self:flex-start;margin-top:6px}
+.logo.w .k,.logo.w .b{color:#fff}
+.foot{position:absolute;left:88px;right:88px;bottom:80px;display:flex;justify-content:space-between;align-items:center;font-size:28px;font-weight:600;color:var(--muted)}
+.pg{font-weight:700}
+.glass{background:rgba(255,255,255,.18);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.35);border-radius:32px}
+.card{background:var(--raised);border-radius:28px;box-shadow:0 1px 2px rgba(11,27,23,.06),0 8px 24px rgba(11,27,23,.08);padding:36px 40px}
+.chip{display:inline-block;padding:14px 26px;border-radius:999px;font-size:30px;font-weight:700}
+.ru{color:var(--muted);font-size:32px;font-weight:500;line-height:1.35}
+
+.num{width:120px;height:120px;border-radius:36px;background:var(--emerald-soft);color:var(--emerald-ink);display:flex;align-items:center;justify-content:center;font-family:"Inter Display";font-weight:800;font-size:64px}
+.warn{display:flex;gap:16px;align-items:center;font-size:30px;font-weight:700;color:var(--ink)}
+.cd{width:16px;height:16px;border-radius:50%;background:var(--coral);flex:none}
+.q{font-size:36px;font-weight:600;line-height:1.3;color:var(--ink)}
+.tip{background:var(--emerald);color:#fff;border-radius:28px;padding:32px 40px;font-size:34px;font-weight:700;line-height:1.3}
+</style></head><body>
+<section class="s" id="s1" style="background:var(--aurora);color:#fff">
+  <img src="../kit/logo_white.svg" style="height:56px;align-self:flex-start">
+  <div style="margin:auto 0">
+    <div class="glass" style="display:inline-block;padding:16px 30px;font-size:32px;font-weight:700;margin-bottom:40px">Maslahat · Совет</div>
+    <h1 class="d" style="font-size:118px;line-height:1.0">Suhbatga<br>tayyorgarlik:<br>5 qadam</h1>
+    <p style="font-size:40px;font-weight:600;margin-top:40px;opacity:.95">Как подготовиться к собеседованию:<br>5 шагов</p>
+  </div>
+  <div class="foot" style="color:rgba(255,255,255,.9)"><span>Saqlab qoʻying</span><span class="pg">1 / 7 →</span></div>
+</section>
+<section class="s" id="s2" style="background:var(--surface)">
+  <img src="../kit/logo_dark.svg" style="height:48px;align-self:flex-start">
+  <div style="display:flex;align-items:center;gap:32px;margin-top:80px"><span class="num">1</span><span class="warn"><span class="cd"></span>Qadam · Шаг</span></div>
+  <h2 class="d" style="font-size:84px;line-height:1.04;margin-top:44px">Kompaniyani<br>oʻrganing</h2>
+  <p class="ru" style="margin-top:22px">Изучите компанию</p>
+  <div class="card" style="margin-top:52px"><div style="font-size:24px;font-weight:700;color:var(--muted);letter-spacing:.06em">MISOL · ПРИМЕР</div><div class="q" style="margin-top:14px">«Ular nima sotadi? Mijozlari kim?»</div></div>
+  <div class="tip" style="margin-top:28px">Sayt va ijtimoiy tarmoqlarini 15 daqiqa koʻrib chiqing.</div>
+  <div class="foot"><span>kasbbor.uz</span><span class="pg">2 / 7 →</span></div>
+</section>
+<section class="s" id="s3" style="background:var(--surface)">
+  <img src="../kit/logo_dark.svg" style="height:48px;align-self:flex-start">
+  <div style="display:flex;align-items:center;gap:32px;margin-top:80px"><span class="num">2</span><span class="warn"><span class="cd"></span>Qadam · Шаг</span></div>
+  <h2 class="d" style="font-size:84px;line-height:1.04;margin-top:44px">Vakansiyani<br>qayta oʻqing</h2>
+  <p class="ru" style="margin-top:22px">Перечитайте вакансию</p>
+  <div class="card" style="margin-top:52px"><div style="font-size:24px;font-weight:700;color:var(--muted);letter-spacing:.06em">MISOL · ПРИМЕР</div><div class="q" style="margin-top:14px">Talab: «mijozlar bilan ishlash» → sizning misolingiz</div></div>
+  <div class="tip" style="margin-top:28px">Har bir talabga tajribangizdan bitta misol tayyorlang.</div>
+  <div class="foot"><span>kasbbor.uz</span><span class="pg">3 / 7 →</span></div>
+</section>
+<section class="s" id="s4" style="background:var(--surface)">
+  <img src="../kit/logo_dark.svg" style="height:48px;align-self:flex-start">
+  <div style="display:flex;align-items:center;gap:32px;margin-top:80px"><span class="num">3</span><span class="warn"><span class="cd"></span>Qadam · Шаг</span></div>
+  <h2 class="d" style="font-size:84px;line-height:1.04;margin-top:44px">«Oʻzingiz haqingizda»<br>— 1 daqiqada</h2>
+  <p class="ru" style="margin-top:22px">«Расскажите о себе» — за 1 минуту</p>
+  <div class="card" style="margin-top:52px"><div style="font-size:24px;font-weight:700;color:var(--muted);letter-spacing:.06em">MISOL · ПРИМЕР</div><div class="q" style="margin-top:14px">Kimsiz → nima qilgansiz → nega shu ish</div></div>
+  <div class="tip" style="margin-top:28px">Qisqa hikoyani oldindan ovoz chiqarib mashq qiling.</div>
+  <div class="foot"><span>kasbbor.uz</span><span class="pg">4 / 7 →</span></div>
+</section>
+<section class="s" id="s5" style="background:var(--surface)">
+  <img src="../kit/logo_dark.svg" style="height:48px;align-self:flex-start">
+  <div style="display:flex;align-items:center;gap:32px;margin-top:80px"><span class="num">4</span><span class="warn"><span class="cd"></span>Qadam · Шаг</span></div>
+  <h2 class="d" style="font-size:84px;line-height:1.04;margin-top:44px">Oʻz savollaringizni<br>tayyorlang</h2>
+  <p class="ru" style="margin-top:22px">Подготовьте свои вопросы</p>
+  <div class="card" style="margin-top:52px"><div style="font-size:24px;font-weight:700;color:var(--muted);letter-spacing:.06em">MISOL · ПРИМЕР</div><div class="q" style="margin-top:14px">«Birinchi oyda qanday vazifalar boʻladi?»</div></div>
+  <div class="tip" style="margin-top:28px">Ish beruvchiga 2–3 ta savol bering — bu qiziqishni koʻrsatadi.</div>
+  <div class="foot"><span>kasbbor.uz</span><span class="pg">5 / 7 →</span></div>
+</section>
+<section class="s" id="s6" style="background:var(--surface)">
+  <img src="../kit/logo_dark.svg" style="height:48px;align-self:flex-start">
+  <div style="display:flex;align-items:center;gap:32px;margin-top:80px"><span class="num">5</span><span class="warn"><span class="cd"></span>Qadam · Шаг</span></div>
+  <h2 class="d" style="font-size:84px;line-height:1.04;margin-top:44px">Vaqt va yoʻlni<br>oldindan biling</h2>
+  <p class="ru" style="margin-top:22px">Заранее продумайте дорогу и время</p>
+  <div class="card" style="margin-top:52px"><div style="font-size:24px;font-weight:700;color:var(--muted);letter-spacing:.06em">MISOL · ПРИМЕР</div><div class="q" style="margin-top:14px">Ofis manzili · onlayn boʻlsa: internet, kamera</div></div>
+  <div class="tip" style="margin-top:28px">10 daqiqa oldin keling yoki ulaning.</div>
+  <div class="foot"><span>kasbbor.uz</span><span class="pg">6 / 7 →</span></div>
+</section>
+<section class="s" id="s7" style="background:var(--aurora);color:#fff">
+  <img src="../kit/logo_white.svg" style="height:56px;align-self:flex-start">
+  <div style="margin:auto 0">
+    <h2 class="d" style="font-size:96px;line-height:1.02">Tayyormisiz?<br>Endi mos ishni<br>toping.</h2>
+    <p style="font-size:36px;font-weight:600;margin-top:28px;opacity:.95">Готовы? Теперь найдите подходящую работу.</p>
+    <div style="display:flex;flex-direction:column;gap:18px;margin-top:60px">
+      <div class="glass" style="padding:28px 36px;font-size:36px;font-weight:700">Saqlab qoʻying va doʻstlarga yuboring</div>
+      <div class="glass" style="padding:28px 36px;font-size:36px;font-weight:700">Telegram · @kasbbor</div>
+      <div class="glass" style="padding:28px 36px;font-size:36px;font-weight:700">Sayt · kasbbor.uz</div>
+    </div>
+  </div>
+  <div class="foot" style="color:rgba(255,255,255,.9)"><span>Ish bor. Topasiz.</span><span class="pg">7 / 7</span></div>
+</section>
+</body></html>
