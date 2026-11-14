@@ -14,7 +14,7 @@
 | 2026-11-11 | ср | Ish beruvchiga | Vakansiyani bepul 2 daqiqada joylang | Рилс | опубликовано (17960170626268468) |
 | 2026-11-12 | чт | Maslahat (замена: вакансии недоступны) | Suhbatga tayyorgarlik: 5 qadam | Карусель 7 | опубликовано (18115838981327720) |
 | 2026-11-13 | пт | Raqamlar | Qaysi sohada maosh koʻproq (Нацкомстат, янв–сен 2026) | Рилс | ошибка: Windsor.ai не подключился (502), рилс готов в 2026-11-13-raqamlar/ |
-| 2026-11-14 | сб | Mahsulot | Ish beruvchi va ish izlovchi: saytda ikki yoʻl | Рилс | план |
+| 2026-11-14 | сб | Mahsulot | Ish beruvchi va ish izlovchi: saytda ikki yoʻl | Рилс | опубликовано (18384021415234451) |
 | 2026-11-15 | вс | Interaktiv | Ideal ish grafigi qanday? | Пост-вопрос | план |
 | 2026-11-16 | пн | Kun vakansiyalari | Haydovchi va kuryerlar uchun ish | Карусель | план |
 | 2026-11-17 | вт | Maslahat | Suhbatdagi 3 ta tuzoq savol | Рилс | план |
