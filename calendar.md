@@ -16,7 +16,7 @@
 | 2026-11-13 | пт | Raqamlar | Qaysi sohada maosh koʻproq (Нацкомстат, янв–сен 2026) | Рилс | ошибка: Windsor.ai не подключился (502), рилс готов в 2026-11-13-raqamlar/ |
 | 2026-11-14 | сб | Mahsulot | Ish beruvchi va ish izlovchi: saytda ikki yoʻl | Рилс | опубликовано (18384021415234451) |
 | 2026-11-15 | вс | Interaktiv | Ideal ish grafigi qanday? | Пост-вопрос | опубликовано (18028364420937863) |
-| 2026-11-16 | пн | Maslahat (замена: вакансии недоступны) | Haydovchi va kuryer ishiga kirishdan oldin: 5 ta savol | Карусель 7 | план |
+| 2026-11-16 | пн | Maslahat (замена: вакансии недоступны) | Haydovchi va kuryer ishiga kirishdan oldin: 5 ta savol | Карусель 7 | опубликовано (18594739966069063) |
 | 2026-11-17 | вт | Maslahat | Suhbatdagi 3 ta tuzoq savol | Рилс | план |
 | 2026-11-18 | ср | Ish beruvchiga | Javob keladigan vakansiya shabloni | Карусель | план |
 | 2026-11-19 | чт | Kun vakansiyalari | Fargʻona vodiysida ish | Карусель | план |
