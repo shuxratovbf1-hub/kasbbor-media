@@ -20,7 +20,7 @@
 | 2026-11-17 | вт | Maslahat | Suhbatdagi 3 ta tuzoq savol | Рилс | опубликовано (18108417983354742) |
 | 2026-11-18 | ср | Ish beruvchiga | Javob keladigan vakansiya shabloni | Карусель 8 | опубликовано (17959562109296239) |
 | 2026-11-19 | чт | Maslahat (замена: вакансии недоступны) | Ish beruvchiga birinchi xabar: 5 ta qoida | Карусель 7 | опубликовано (18184509946434685) |
-| 2026-11-20 | пт | Raqamlar | Uydan ishlash: qaysi kasblar (только с источником) | Рилс | план |
+| 2026-11-20 | пт | Raqamlar | Uydan ishlash: qaysi kasblar (hh.uz, 2023) | Рилс | опубликовано (18154875115516520) |
 | 2026-11-21 | сб | Mahsulot | @kasbbor kanali — har kuni yangi ish | Рилс | план |
 | 2026-11-22 | вс | Interaktiv | Birinchi ishingiz qanday edi? | Пост-вопрос | план |
 | 2026-11-23 | пн | Kun vakansiyalari | Talabalar uchun ish | Карусель | план |
