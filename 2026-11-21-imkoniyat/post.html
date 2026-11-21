@@ -1,0 +1,120 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+:root{--surface:#F4F7F6;--raised:#FFFFFF;--line:#DDE5E2;--ink:#0B1B17;--muted:#5A6B66;--emerald:#087F57;--emerald-soft:#E2F6EE;--emerald-ink:#05603F;--coral:#FF6A55;
+--aurora:linear-gradient(135deg,#087F57 0%,#12B886 45%,#FF8A6B 100%);}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#ccc;font-family:"Inter",sans-serif;color:var(--ink)}
+.s{width:1080px;height:1350px;position:relative;overflow:hidden;display:flex;flex-direction:column;padding:96px 88px}
+.d{font-family:"Inter Display","Inter",sans-serif;font-weight:800;letter-spacing:-0.03em}
+.foot{position:absolute;left:88px;right:88px;bottom:80px;display:flex;justify-content:space-between;align-items:center;font-size:28px;font-weight:600;color:var(--muted)}
+.pg{font-weight:700}
+.glass{background:rgba(255,255,255,.18);backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.35);border-radius:32px}
+.card{background:var(--raised);border-radius:28px;box-shadow:0 1px 2px rgba(11,27,23,.06),0 8px 24px rgba(11,27,23,.08);padding:32px 40px}
+.lbl{font-size:24px;font-weight:700;color:var(--muted);letter-spacing:.06em}
+.ru{color:var(--muted);font-size:32px;font-weight:500;line-height:1.35}
+.uz{font-size:40px;font-weight:600;line-height:1.3;color:var(--ink)}
+.num{width:120px;height:120px;border-radius:36px;background:var(--emerald-soft);color:var(--emerald-ink);display:flex;align-items:center;justify-content:center;font-family:"Inter Display";font-weight:800;font-size:64px;flex:none}
+.badge{display:flex;gap:16px;align-items:center;font-size:30px;font-weight:700;color:var(--ink)}
+.cd{width:16px;height:16px;border-radius:50%;background:var(--coral);flex:none}
+.q{font-size:34px;font-weight:600;line-height:1.3;color:var(--ink);margin-top:12px}
+.tip{background:var(--emerald);color:#fff;border-radius:28px;padding:30px 40px;font-size:34px;font-weight:700;line-height:1.3}
+.link{display:inline-flex;align-items:center;gap:14px;background:var(--emerald-soft);color:var(--emerald-ink);border-radius:999px;padding:16px 30px;font-size:32px;font-weight:700;align-self:flex-start}
+.ico{position:absolute;top:84px;right:88px;width:176px;height:176px;border-radius:48px;background:var(--emerald-soft);display:flex;align-items:center;justify-content:center}
+.ico svg{width:104px;height:104px;fill:none;stroke:var(--emerald);stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
+.pills{display:flex;flex-wrap:wrap;gap:16px;margin-top:56px}
+.pills span{padding:16px 28px;font-size:32px;font-weight:700;border-radius:999px}
+</style></head><body>
+
+<section class="s" id="s1" style="background:var(--aurora);color:#fff">
+  <img src="../kit/logo_white.svg" style="height:56px;align-self:flex-start">
+  <div style="margin:auto 0">
+    <div class="glass" style="display:inline-block;padding:16px 30px;font-size:32px;font-weight:700;margin-bottom:40px">Imkoniyat · Возможность</div>
+    <h1 class="d" style="font-size:112px;line-height:1.0">Yangi kasbni<br>bepul oʻrganing:<br>5 ta platforma</h1>
+    <p style="font-size:40px;font-weight:600;margin-top:36px;opacity:.95">Освойте новую профессию<br>бесплатно: 5 платформ</p>
+    <div class="pills">
+      <span class="glass">Khan Academy</span><span class="glass">Duolingo</span><span class="glass">Stepik</span><span class="glass">freeCodeCamp</span><span class="glass">Harvard CS50</span>
+    </div>
+  </div>
+  <div class="foot" style="color:rgba(255,255,255,.9)"><span>Saqlab qoʻying</span><span class="pg">1 / 7 →</span></div>
+</section>
+
+<section class="s" id="s2" style="background:var(--surface)">
+  <img src="../kit/logo_dark.svg" style="height:48px;align-self:flex-start">
+  <div class="ico"><svg viewBox="0 0 100 100"><path d="M50 26C40 18 24 16 12 18v58c12-2 28 0 38 8 10-8 26-10 38-8V18c-12-2-28 0-38 8z"/><path d="M50 26v58"/></svg></div>
+  <div style="display:flex;align-items:center;gap:32px;margin-top:80px"><span class="num">1</span><span class="badge"><span class="cd"></span>Oʻzbek tilida · bepul</span></div>
+  <h2 class="d" style="font-size:92px;line-height:1.04;margin-top:40px">Khan Academy</h2>
+  <p class="uz" style="margin-top:24px">Matematika, iqtisod va moliya asoslari — video darslar va mashqlar bilan.</p>
+  <p class="ru" style="margin-top:12px">Математика, экономика, финансы — на узбекском языке.</p>
+  <div class="card" style="margin-top:36px"><div class="lbl">KIMGA · КОМУ</div><div class="q">Buxgalteriya, moliya yoki savdoga kirishdan oldin bilimini tiklamoqchilarga</div></div>
+  <div class="link" style="margin-top:28px">↗ uz.khanacademy.org</div>
+  <div class="tip" style="margin-top:28px">Darslar va mashqlar toʻliq bepul.</div>
+  <div class="foot"><span>kasbbor.uz</span><span class="pg">2 / 7 →</span></div>
+</section>
+
+<section class="s" id="s3" style="background:var(--surface)">
+  <img src="../kit/logo_dark.svg" style="height:48px;align-self:flex-start">
+  <div class="ico"><svg viewBox="0 0 100 100"><path d="M14 22h48a8 8 0 0 1 8 8v22a8 8 0 0 1-8 8H34l-14 12V60h-6a8 8 0 0 1-8-8V30a8 8 0 0 1 8-8z"/><path d="M78 40h6a8 8 0 0 1 8 8v20a8 8 0 0 1-8 8h-4v10L68 76H52"/></svg></div>
+  <div style="display:flex;align-items:center;gap:32px;margin-top:80px"><span class="num">2</span><span class="badge"><span class="cd"></span>Ingliz tili · bepul versiya</span></div>
+  <h2 class="d" style="font-size:92px;line-height:1.04;margin-top:40px">Duolingo</h2>
+  <p class="uz" style="margin-top:24px">Ingliz tilini telefonda, kuniga 10–15 daqiqadan oʻyin shaklida oʻrganing.</p>
+  <p class="ru" style="margin-top:12px">Английский в телефоне — по 10–15 минут в день.</p>
+  <div class="card" style="margin-top:36px"><div class="lbl">KIMGA · КОМУ</div><div class="q">Ofis, mehmonxona, IT va xalqaro kompaniyalarda ishlamoqchilarga</div></div>
+  <div class="link" style="margin-top:28px">↗ duolingo.com</div>
+  <div class="tip" style="margin-top:28px">Bepul versiyasi yetarli — pullik obuna shart emas.</div>
+  <div class="foot"><span>kasbbor.uz</span><span class="pg">3 / 7 →</span></div>
+</section>
+
+<section class="s" id="s4" style="background:var(--surface)">
+  <img src="../kit/logo_dark.svg" style="height:48px;align-self:flex-start">
+  <div class="ico"><svg viewBox="0 0 100 100"><rect x="12" y="16" width="76" height="68" rx="10"/><path d="M12 38h76M12 60h76M38 16v68M64 16v68"/></svg></div>
+  <div style="display:flex;align-items:center;gap:32px;margin-top:80px"><span class="num">3</span><span class="badge"><span class="cd"></span>Rus tilida · koʻp kurslar bepul</span></div>
+  <h2 class="d" style="font-size:92px;line-height:1.04;margin-top:40px">Stepik</h2>
+  <p class="uz" style="margin-top:24px">Excel, Python, SQL va boshqa kasbiy koʻnikmalar boʻyicha kurslar.</p>
+  <p class="ru" style="margin-top:12px">Курсы по Excel, Python, SQL и другим навыкам.</p>
+  <div class="card" style="margin-top:36px"><div class="lbl">KIMGA · КОМУ</div><div class="q">Ofis xodimi, operator yoki analitik boʻlmoqchilarga</div></div>
+  <div class="link" style="margin-top:28px">↗ stepik.org</div>
+  <div class="tip" style="margin-top:28px">Kurs sahifasida «Бесплатно» yozuvini tekshiring — baʼzilari pullik.</div>
+  <div class="foot"><span>kasbbor.uz</span><span class="pg">4 / 7 →</span></div>
+</section>
+
+<section class="s" id="s5" style="background:var(--surface)">
+  <img src="../kit/logo_dark.svg" style="height:48px;align-self:flex-start">
+  <div class="ico"><svg viewBox="0 0 100 100"><path d="M34 26L12 50l22 24M66 26l22 24-22 24M56 18L44 82"/></svg></div>
+  <div style="display:flex;align-items:center;gap:32px;margin-top:80px"><span class="num">4</span><span class="badge"><span class="cd"></span>Ingliz tilida · bepul sertifikat</span></div>
+  <h2 class="d" style="font-size:92px;line-height:1.04;margin-top:40px">freeCodeCamp</h2>
+  <p class="uz" style="margin-top:24px">Veb-dasturlash va Pythonni noldan oʻrganing, real loyihalar qiling.</p>
+  <p class="ru" style="margin-top:12px">Веб-разработка и Python с нуля + бесплатный сертификат.</p>
+  <div class="card" style="margin-top:36px"><div class="lbl">KIMGA · КОМУ</div><div class="q">Dasturchi boʻlishni noldan boshlamoqchilarga</div></div>
+  <div class="link" style="margin-top:28px">↗ freecodecamp.org</div>
+  <div class="tip" style="margin-top:28px">Sertifikat havolasini rezyumega qoʻshing.</div>
+  <div class="foot"><span>kasbbor.uz</span><span class="pg">5 / 7 →</span></div>
+</section>
+
+<section class="s" id="s6" style="background:var(--surface)">
+  <img src="../kit/logo_dark.svg" style="height:48px;align-self:flex-start">
+  <div class="ico"><svg viewBox="0 0 100 100"><path d="M50 20L8 40l42 20 42-20z"/><path d="M26 49v20c0 6 11 13 24 13s24-7 24-13V49"/><path d="M92 40v24"/></svg></div>
+  <div style="display:flex;align-items:center;gap:32px;margin-top:80px"><span class="num">5</span><span class="badge"><span class="cd"></span>Ingliz tilida · bepul sertifikat</span></div>
+  <h2 class="d" style="font-size:92px;line-height:1.04;margin-top:40px">Harvard CS50</h2>
+  <p class="uz" style="margin-top:24px">Garvard universitetining IT asoslari kursi: dasturlash va algoritmlar.</p>
+  <p class="ru" style="margin-top:12px">Курс Гарварда по основам IT — бесплатно.</p>
+  <div class="card" style="margin-top:36px"><div class="lbl">KIMGA · КОМУ</div><div class="q">IT sohasiga jiddiy kirmoqchi boʻlganlarga</div></div>
+  <div class="link" style="margin-top:28px">↗ cs50.harvard.edu</div>
+  <div class="tip" style="margin-top:28px">Topshiriqlarni bajaring — oxirida bepul sertifikat olasiz.</div>
+  <div class="foot"><span>kasbbor.uz</span><span class="pg">6 / 7 →</span></div>
+</section>
+
+<section class="s" id="s7" style="background:var(--aurora);color:#fff">
+  <img src="../kit/logo_white.svg" style="height:56px;align-self:flex-start">
+  <div style="margin:auto 0">
+    <h2 class="d" style="font-size:104px;line-height:1.02">Oʻrgandingizmi?<br>Endi ishni<br>toping.</h2>
+    <p style="font-size:38px;font-weight:600;margin-top:28px;opacity:.95">Научились? Теперь найдите работу.</p>
+    <div style="display:flex;flex-direction:column;gap:18px;margin-top:60px">
+      <div class="glass" style="padding:28px 36px;font-size:36px;font-weight:700">Rezyume joylang · kasbbor.uz/rezyume</div>
+      <div class="glass" style="padding:28px 36px;font-size:36px;font-weight:700">Telegram · @kasbbor</div>
+      <div class="glass" style="padding:28px 36px;font-size:36px;font-weight:700">Ish izlayotgan doʻstingizga yuboring</div>
+    </div>
+  </div>
+  <div class="foot" style="color:rgba(255,255,255,.9)"><span>Ish bor. Topasiz.</span><span class="pg">7 / 7</span></div>
+</section>
+</body></html>
